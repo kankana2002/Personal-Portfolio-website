@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO WEBSITE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/92009f4695.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="kankana resize.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header" class="Home">Home</a></li>
+                    <li><a href="#About" class="About">About</a></li>
+                    <li><a href="#Services" class="Services">Services</a></li>
+                    <li><a href="#portfolio" class="portfolio">portfolio</a></li>
+                    <li><a href="#contact me" class="contact me">contact me</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FRONTEND WEB DEVELOPER</p>
+                <H1>HI I'm <br><span>kankana Pandit</span><br>a very creative <br>designer from INDIA</H1>
+            </div>
+
+        </div>
+    </div>
+    <!-- --------------------here comes the about part------------->
+    <div id="About" style="background-image: url(back3.avif);">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="WhatsApp Image 2024-01-14 at 15.46.47.jpeg" style="border: 5px groove #ff0060; padding: 3px; margin: 5px;">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p>I have always been passionate about learning new things, and I am willing to take up new challenges to enhance my skills and knowledge.My strength is that I can adapt quickly to any environment.My short-term goal is to get placed in a reputed company like yours, which will allow me to enhance my skills and Knowledge. My long term goal would be to reach a higher position in your company.Although I may lack professional experience, I have actively participated in various extracurricular activities that have enhanced my leadership, teamwork, and problem-solving skills.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links active-link" onclick="opentab('Projects')">Projects</p>
+                        <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li style="color: #ff0060; margin-bottom: 10px;"><span>FRONTEND</span><BR>WEB DEVELOPER</BR></li>
+                            <li style="margin-bottom: 10px;"><span>JAVA|PYTHON|C++</span><BR>PROGRAMMER</BR></li>
+                            <li style="color: #ff0060; margin-bottom: 10px;"><span>DATABASE</span><BR>MYSQL|MONGODB DEVELOPER</BR></li>
+                            <li style="margin-bottom: 10px;"><span>SOFTWARE</span><BR>ENGINEER</BR></li>
+                            <list style="color: #ff0060; margin-bottom: 10px;"><span>BUILDING</span><BR>MACHINE LEARNING MODELS</BR></li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="Projects">
+                        <ul>
+                            <li style="color: #ff0060; margin-bottom: 10px;"><span>SCIRNTIFIC CALCULATOR</span><BR>Using HTML,CSS,Javascript</BR></li>
+                            <li style="margin-bottom: 10px;"><span>PLANT DIEASES DETECTION</span><BR>using machine learning algorithims</BR></li>
+                            <li style="color: #ff0060; margin-bottom: 10px;"><span>ONLINE VOTING SYSTEM</span><BR>using html,css,javascript,php,mysql</BR></li>
+                            <li style="margin-bottom: 10px;"><span>SKIN CANCER DETECTION SYSTEM</span><BR>using kaggle dataset</BR></li>
+                            <list style="color: #ff0060; margin-bottom: 10px;"><span>BUILDING WEATHER APP</span><BR>using html,css,javascript</BR></li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li style="color: #ff0060; margin-bottom: 10px;"><span>SCHOOLING FROM</span><BR>Barisha girls high school</BR></li>
+                            <li style="margin-bottom: 10px;"><span>COMPLETED MY DIPLOMA ENGINEERING</span><BR>from women's polytechniq,kolkata</BR><span>in Electronics and telecommunication engineering</span></li>
+                            <li style="color: #ff0060; margin-bottom: 10px;"><span>PERSUING MY BTECH</span><BR>from Government College of Engineering and Leather Technology</BR><span>in computer science and engineering</span></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------------------------------------services--------------------------------------------->
+    <div id="Services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="Services-list">
+                <div>
+                    <i class="fa-solid fa-globe" style="color: cyan; font-size: 30px;margin-bottom: 30px;"></i>
+                    <h2 style="font-size: 30px; font-weight: 500; margin-bottom:15px;">Frontend Web Developer</h2>
+                    <p style="margin-bottom: 20px; font-size: 18px;">I like to design frontend web application.Frontend development is the process of creating the visual and intereactive elements of a website that users interact with directly.It's also known as client-side development.It uses Html,css, and javascript to create the graphical user interface(GUI)of a websites.So here I like to design new user friendly applications.</p>
+                    <a href="#" style="color: cyan; text-decoration: none; font-size: 12px; display: inline-block;">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-regular fa-cloud-arrow-up" style="color: aliceblue;font-size: 30px;margin-bottom: 30px;"></i>
+                    <h2 style="color: aliceblue;font-size: 30px; font-weight: 500; margin-bottom:15px;">Software Developer</h2>
+                    <p style="color: aliceblue; margin-bottom: 20px; font-size: 18px;">A software developer is a professional who designs and buils computer programs.They may also develop computer games and other digital architechture.I basically uses java programming language to develop my softwares.</p>
+                    <a href="#" style="color: aliceblue; text-decoration: none; font-size: 12px; display: inline-block;">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-android" style="color: #ff0060; font-size: 30px;margin-bottom: 30px;"></i>
+                    <h2 style="color: #ff0060;font-size: 30px; font-weight: 500; margin-bottom:15px;">Machine Learning Engineer</h2>
+                    <p style="color: #ff004d;margin-bottom: 20px; font-size: 18px;">Machine learning engineer are part software and part data scientists.They use their coding and programming skills to collect,process,and analyze dat.They also create algorithims and predictive models that use ml to organize data.I have build some ml models by the help of image processing techniq.</p>
+                    <a href="#" style="color: #ff0060;text-decoration: none; font-size: 12px; display: inline-block;">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- -----------------------------------portfolio---------------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Projects</h1>
+            <div class="project-lists">
+                <div class="work" style="border-radius: 10px; position: relative; overflow: hidden;">
+                    <img src="oooo.avif" style="width: 100%; border-radius: 10px; display: block; transition: transform 0.5s;">
+                    <div class="layer">
+                        <h3>online voting system</h3>
+                        <p>
+                            This will help people to vote online without any physical aapearence needed.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+
+                    </div>
+                </div>
+                <div class="work" style="border-radius: 10px; position: relative; overflow: hidden;">
+                    <img src="ai" style="width: 100%; border-radius: 10px; display: block; transition: transform 0.5s;">
+                    <div class="layer">
+                        <h3>Plant dieases detection system</h3>
+                        <p>
+                            Machine learning model use to differenciate between healthy and dieased plant.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+
+                    </div>
+                </div>
+                <div class="work" style="border-radius: 10px; position: relative; overflow: hidden;">
+                    <img src="my imagen.avif" style="width: 100%; border-radius: 10px; display: block; transition: transform 0.5s;">
+                    <div class="layer">
+                        <h3>online weather app</h3>
+                        <p>
+                            updates everyone about current weather condition about any where in world
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+
+                    </div>
+                
+                
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ----------------------------------contac-------------------------- -->
+    <div id="contact me">
+        <div class="conatiner">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> mamonpandit2002@gmail.com</p>
+                    <p><i class="fa-solid fa-phone-volume"></i> 9012547894</p>
+                    <div class="social-icons" style="margin-top: 30px;">
+                        <a href="https://www.facebook.com/home.php"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="https://www.instagram.com/kankanapandit/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://github.com/kankana2002"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/kankana-pandit-76535a215/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="Profile (2).pdf"Download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter your name here" required>
+                        <input type="email" name="email" placeholder="Enter your email here" required>
+                        <textarea name="Message" rows="6" placeholder="your feedback"></textarea>
+                        <button type="submit" class="btn btn2">submit your form</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>This website has copyright <i class="fa-regular fa-copyright" style="color: aliceblue;"></i> Kankana.Made with <i class="fa-solid fa-heart" style="color: #ff0060;"></i> Kankana Pandit</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzU4_2uWRWMljHrIUUtilWV_4Y-onhlNvToCVerkABxKlnj7KjEExcBxP3cn0HRSMc5/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg");
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "message sent sucessfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
