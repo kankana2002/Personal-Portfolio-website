@@ -4,4 +4,4 @@ my website link https://personalporifoliowebsite.netlify.app/
 visit this to know about me
 first download all the files in your computer 
 save them 
-and runthe code
+and run the code
