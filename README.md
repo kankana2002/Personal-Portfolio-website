@@ -5,7 +5,7 @@ A portfolio website is a unique way to showcase your work and let others know ab
 
 Having your own website means customers are always able to find you and if interested, reach out for you. If you don’t have an online presence nowadays, you are behind the times. 😉 A portfolio is a great way for photographers, designers, developers and a wide range of artists to present their work online. It lets you reflect your identity through your works – photos, graphic design, sketches, etc.<br>
 my website link https://personalporifoliowebsite.netlify.app/<br>
-<b>Why You Need a Portfolio Website<b\><br>
+<b>Why You Need a Portfolio Website<br><b\>
 In a nutshell, you need a portfolio website to showcase your work. Whether you’re an individual, a small team of two or a company of ten people, it’s crucial that you have a unique online approach. A website portfolio will help you stand out from the crowd, show your uniqueness, build trust, and make sure that others can actually find you.<br>
 
 There are certain areas where a website portfolio is more important than others. If you find yourself in one of the following, it’s safe to assume that you need a portfolio like a book needs words:<br>
