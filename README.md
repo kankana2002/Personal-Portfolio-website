@@ -21,5 +21,5 @@ First download all the files in your computer👾👾 <br>
 Save them 🤖<br>
 And run the code✌️<br>
 N.B: YOU NEED TO HAVE A BASIC KNOWLEDGE ABOUT HTML , CSS , JAVASCRIPT🤙<br>
-Feel free to contact me on github![alt text](image.png)
+Feel free to contact me on github , facebook , instagram
 
